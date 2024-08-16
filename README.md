@@ -1,17 +1,31 @@
 # TABLEAU  |  Fraudulent Transaction Dashboard
 
-<div class='tableauPlaceholder' id='viz1723789646306' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fr&#47;FraudulentTransactionsDashboard&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='FraudulentTransactionsDashboard&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fr&#47;FraudulentTransactionsDashboard&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>  
-&ensp;
+### Table of Contents
+- [Project Overview](#project-overview)
+- [Steps](#steps)
+- [SQL Queries](#sql-queries)
+- [Key Takeaways](#key-takeaways)
+- [Recommendations](#recommendations)  
+&ensp;  
+
+
+![Dashboard 1](https://github.com/user-attachments/assets/28de8a8b-0749-4974-a9fc-f607eba81430)
+[Check the dashboard in Tableau Public](https://public.tableau.com/views/FraudulentTransactionsDashboard/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)  
+&ensp; 
+
 
 ### Project Overview
-This Tableau dashboard project aims to present the findings and key insights in an easy-to-understand way.  
+This fraudulent transaction dashboard project aims to present the findings in an easy-to-understand way.<br/>
+By analyzing various aspects of the fraud transaction data, we seek to reduce the risk of fraudulent transactions and enhance overall security.  
 &ensp;
+
 
 ### Steps
 1. Copied each queried output from MS SQL Server, pasted it into an Excel sheet, and created four separate sheets.
 2. Imported the data into Tableau Public and created visualizations for each dataset.
 3. Compiled the visualizations into a dashboard and organized them to present the findings.  
 &ensp;
+
 
 ### SQL Queries
 The following SQL queries were used to extract data for this Fraudulent Transaction Dashboard project.  
@@ -96,7 +110,62 @@ from DataCleaningProject.dbo.fraud_data
 group by category
 order by 4 desc
 ```
-⬇️
+⬇️ This bar chart shows the total count of fraudulent transactions for each category.
+
+![Tableau 4](https://github.com/user-attachments/assets/755d0473-b6ef-4406-966c-589877e8cba4)
+
+**Findings**: Top 3 purchase category: grocery_pos, shopping_net, misc_net.  
+&ensp;
+
+
+---
+
+
+### Key Takeaways
+- The numbers did not show an improvement in reducing the risk of fraudulent transactions from 2019 to 2020.
+- Fraudulent transactions occurred mostly among middle-aged people (30-50).
+- Most fraudulent transactions occurred between 10 p.m. and 3 a.m., when most people are asleep.
+- The top three purchase categories for fraudulent transactions are grocery_pos, shopping_net, misc_net.  
+&ensp;
+
+
+### Recommendations
+
+Based on the analysis results, individuals and banks can take several steps to prevent fraudulent transactions:
+
+1. Targeted Awareness and Education:
+
+- For Individuals: Educate middle-aged people (30-50) about common fraud tactics and best practices for online security.
+- For Banks: Provide targeted awareness campaigns for this age group, highlighting common scams and preventative measures.  
+&ensp;
+
+
+2. Enhanced Monitoring During Vulnerable Hours:
+
+- For Banks: Implement enhanced fraud detection and monitoring systems during peak hours of 10 p.m. to 3 a.m. to identify suspicious activities more effectively.
+- For Individuals: Encourage monitoring of accounts and transactions more frequently during these hours.  
+&ensp;
+
+
+3. Security Measures for Top Purchase Categories:
+
+- For Banks: Strengthen security measures for transactions in the top categories identified (e.g., grocery, shopping net) by implementing advanced fraud detection algorithms and transaction monitoring.
+- For Individuals: Be cautious when making transactions in these categories, especially online, and use secure payment methods.  
+&ensp;
+
+4. Fraud Detection Technology:
+
+- For Banks: Invest in advanced fraud detection technologies that use machine learning and data analytics to identify and prevent fraudulent transactions more accurately.
+- For Individuals: Use banks that offer robust fraud detection and protection services.  
+&ensp;
+
+
+
+**Thank you so much for checking out my project!** 😄
+
+
+
+
 
 
 
