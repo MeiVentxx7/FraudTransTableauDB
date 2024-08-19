@@ -67,7 +67,7 @@ where is_fraud = 'Yes'
 group by age
 order by 1 desc
 ```  
-⬇️ This bar chart displays the total count of fraudulent transactions for each age group.  
+⬇️ This column chart displays the total count of fraudulent transactions for each age group.  
 
 ![Tableau 2](https://github.com/user-attachments/assets/badff26a-d811-471d-91df-17c1f6184569)  
 
