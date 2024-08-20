@@ -15,7 +15,7 @@
 
 
 ### Project Overview
-This fraudulent transaction dashboard project aims to present the findings in an easy-to-understand way.<br/>
+This fraudulent transaction dashboard project aims to present the findings from the SQL-based exploratory data analysis of fraud transaction data in an easy-to-understand way.
 By analyzing various aspects of the fraud transaction data, we seek to reduce the risk of fraudulent transactions and enhance overall security.  
 &ensp;
 
